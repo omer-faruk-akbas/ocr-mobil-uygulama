@@ -1,3 +1,47 @@
+# Dart/Pub/Flutter
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IntelliJ/VSCode/Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# macOS
+macos/Flutter/ephemeral/
+macos/Flutter/Generated.xcconfig
+
+# Linux
+linux/Flutter/ephemeral/
+linux/flutter/generated_plugin_registrant.cc
+
+# Windows
+windows/Flutter/ephemeral/
+windows/flutter/generated_plugin_registrant.cc
+
+# iOS
+ios/Flutter/.last_build_id
+ios/Flutter/ephemeral/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/.symlinks/
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Runner.xcuserstate
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+
 # Miscellaneous
 *.class
 *.log
@@ -10,26 +54,8 @@
 .svn/
 migrate_working_dir/
 
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
-.idea/
-
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
-
-# Flutter/Dart/Pub related
+# doc/api
 **/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
 
 # Symbolication related
 app.*.symbols
